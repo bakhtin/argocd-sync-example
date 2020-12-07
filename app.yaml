@@ -18,3 +18,8 @@ spec:
     automated:
       prune: true
       selfHeal: true
+    syncStrategy:
+      apply:
+        force: true
+      hook:
+        force: true
