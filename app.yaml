@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     path: resources
-    repoURL: git@github.com:bakhtin/argocd-sync-example.git
+    repoURL: https://github.com/bakhtin/argocd-sync-example.git
     targetRevision: master
   syncPolicy:
     automated:

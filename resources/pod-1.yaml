@@ -10,4 +10,16 @@ spec:
     command:
       - "sleep"
       - "3600"
+    livenessProbe:
+      exec:
+        command:
+        - "true"
+      initialDelaySeconds: 5
+      periodSeconds: 5
+    readinessProbe:
+      exec:
+        command:
+        - "true"
+      initialDelaySeconds: 5
+      periodSeconds: 5
   restartPolicy: Never
