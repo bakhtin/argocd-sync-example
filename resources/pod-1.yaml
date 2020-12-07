@@ -9,7 +9,7 @@ spec:
     imagePullPolicy: IfNotPresent
     command:
       - "sleep"
-      - "3603"
+      - "3604"
     livenessProbe:
       exec:
         command:
